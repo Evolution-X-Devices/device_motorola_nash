@@ -413,7 +413,6 @@ system/etc/permissions/com.motorola.mod_v2.xml
 system/etc/permissions/com.motorola.moto.permissions.xml
 system/etc/permissions/privapp-permissions-com.motorola.modservice.xml|69ebb12342c2fd286ba03d8de93d8c6da1e054b4
 system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml
-system/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml
 system/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml
 system/etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml
 system/lib64/libmodhw.so;SYMLINK=system/priv-app/ModFmwkProxyService/lib/arm64/libmodhw.so
@@ -426,11 +425,6 @@ vendor/lib/com.motorola.mod@1.0_vendor.so
 vendor/lib/libmodmanager.so
 vendor/lib64/com.motorola.mod@1.0_vendor.so
 vendor/lib64/libmodmanager.so
-
-# Moto Permissions
-system/etc/permissions/com.motorola.camera2.xml:vendor/etc/permissions/com.motorola.camera2.xml
-system/etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml
-system/etc/permissions/com.motorola.motodisplay.xml:vendor/etc/permissions/com.motorola.motodisplay.xml
 
 # NFC
 vendor/lib64/libpn553_fw.so:vendor/lib/libpn553_fw.so
