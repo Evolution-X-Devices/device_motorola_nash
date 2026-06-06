@@ -1,2 +1,0 @@
-# Sensors
-ro.sensors.tof.interval_ms  u:object_r:vendor_sensor_prop:s0

@@ -64,8 +64,5 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # inherit from the proprietary version
 include vendor/motorola/nash/BoardConfigVendor.mk

@@ -1,1 +1,0 @@
-genfscon sysfs /module/stmvl53l1                                              u:object_r:sysfs_sensor:s0
