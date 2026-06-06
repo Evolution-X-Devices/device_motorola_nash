@@ -10,7 +10,7 @@ $(call inherit-product, device/motorola/nash/device.mk)
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := nash
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_MODEL := Moto Z (2)
+PRODUCT_MODEL := moto z(2)
 PRODUCT_NAME := lineage_nash
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

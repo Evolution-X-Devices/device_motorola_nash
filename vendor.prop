@@ -19,7 +19,7 @@ vendor.audio.offload.gapless.enabled=true
 vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
-bluetooth.device.default_name=Motorola Z2 Force
+bluetooth.device.default_name=moto z(2)
 
 # Display
 ro.hardware.vulkan=msm8998
