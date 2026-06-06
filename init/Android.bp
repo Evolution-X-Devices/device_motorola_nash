@@ -1,0 +1,24 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.nash.rc",
+    src: "init.nash.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.nash.rc",
+    src: "init.recovery.nash.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+sh_binary {
+    name: "init.mmi.laser.sh",
+    src: "init.mmi.laser.sh",
+    vendor: true,
+}

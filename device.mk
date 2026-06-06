@@ -87,10 +87,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml
 
 # Init
-$(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/hw/*.rc),\
-        $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/$(notdir $f)))
-$(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
-        $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
+PRODUCT_PACKAGES += \
+    init.nash.rc \
+    init.recovery.nash.rc \
+    init.mmi.laser.sh
 
 # Keymaster
 PRODUCT_PACKAGES += \
@@ -141,10 +141,6 @@ PRODUCT_COPY_FILES += \
 # PocketMode
 PRODUCT_PACKAGES += \
     MotoPocketMode
-
-# Recovery
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/recovery/root/init.recovery.nash.rc:root/init.recovery.nash.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \
