@@ -4,6 +4,13 @@
 //
 
 prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    vendor: true,
+    ramdisk_available: true,
+}
+
+prebuilt_etc {
     name: "init.nash.rc",
     src: "init.nash.rc",
     sub_dir: "init/hw",

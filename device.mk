@@ -88,6 +88,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
     init.nash.rc \
     init.recovery.nash.rc \
     init.mmi.laser.sh
